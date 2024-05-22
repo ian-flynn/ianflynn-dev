@@ -2,7 +2,8 @@ import Intro from '@/components/Intro';
 
 const Home = () => {
   return (
-    <main>
+    <main className='px-6'>
+      <Intro />
       <Intro />
     </main>
   );

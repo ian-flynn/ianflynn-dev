@@ -3,16 +3,18 @@ import Image from 'next/image';
 
 const Intro = () => {
   return (
-    <section>
+    <section className='text-2xl bg-red-200 h-screen flex flex-col justify-center items-center'>
       <Image
         src={headshot}
         alt='Ian enjoying a hike'
-        className='h-60 w-60 object-cover aspect-square w-5/6 rounded-full border border-black '
+        className='w-60 object-cover aspect-square rounded-full relative ml-auto'
       />
-      <h1>Ian Flynn</h1>
-
-      <p className=''>Fullstack Software Engineer</p>
-      <p>Crafting useful, maintainable, and captivating web products.</p>
+      <p className='mr-auto text-2xl'>Hi! My name is</p>
+      <h1 className='mr-auto text-2xl font-bold'> Ian Flynn.</h1>
+      <p>
+        I build full-stack web apps in Typscript, React, Next.js and Node.
+        Currently living in South Florida!
+      </p>
     </section>
   );
 };
