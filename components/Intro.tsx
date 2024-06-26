@@ -1,5 +1,6 @@
 import headshot from '@/public/Ian-Flynn-Headshot.jpg';
 import Image from 'next/image';
+// import { Button } from 'react-aria-components';
 
 const Intro = () => {
   return (
@@ -12,11 +13,16 @@ const Intro = () => {
       <p className='text-xl'>
         <span className='font-medium'>Hi!</span> My name is
       </p>
-      <h1 className=' text-4xl font-bold'> Ian Flynn</h1>
+      <h1 className=' text-4xl font-bold mb-3'> Ian Flynn</h1>
       <p>
-        I build full-stack web apps in Typscript, React, Next.js and Node.
-        Currently living in Juno Beach, Florida!
+        I&apos;m a software engineer specializing in full-stack web apps built
+        in Typscript, React, Next.js and Node.
       </p>
+      <div>
+        {/* <Button>Heu</Button> */}
+        {/* <Button /> */}
+        {/* <Button /> */}
+      </div>
     </section>
   );
 };
